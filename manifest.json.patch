@@ -1,0 +1,41 @@
+@@ -3,11 +3,11 @@
+ 
+   "browser_specific_settings": {
+     "gecko": {
+-      "id": "firefox-alpenglow@mozilla.org"
++      "id": "alpenglow@tau.garden"
+     }
+   },
+ 
+-  "name": "Firefox Alpenglow",
++  "name": "Tau's Version of Alpenglow",
+   "description": "Use a colorful appearance for buttons, menus, and windows.",
+   "version": "1.4",
+   "icons": { "32": "icon.svg" },
+@@ -56,11 +56,6 @@
+       "tab_loading": "hsla(265, 100%, 72%, 1)",
+       "ntp_background": "#F9F9FB",
+       "ntp_text": "hsla(261, 53%, 15%, 1)",
+-      "popup": "hsla(254, 46%, 21%, 1)",
+-      "popup_text": "hsla(255, 100%, 94%, 1)",
+-      "popup_border": "hsla(255, 100%, 94%, .32)",
+-      "popup_highlight": "hsla(255, 100%, 94%, .12)",
+-      "popup_highlight_text": "hsla(0, 0%, 100%, 1)",
+       "sidebar": "hsla(240, 15%, 95%, 1)",
+       "sidebar_text": "hsla(261, 53%, 15%, 1)",
+       "sidebar_border": "hsla(261, 53%, 15%, .24)",
+@@ -126,14 +121,5 @@
+       "sidebar_highlight_text": "hsla(0, 0%, 100%, 1)",
+       "focus_outline": "hsla(265, 100%, 72%, 1)"
+     }
+-  },
+-
+-  "theme_experiment": {
+-    "colors": {
+-      "focus_outline": "--focus-outline-color"
+-    },
+-    "properties": {
+-      "zap_gradient": "--panel-separator-zap-gradient"
+-    }
+   }
+ }
