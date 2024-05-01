@@ -1,4 +1,4 @@
-@@ -3,11 +3,11 @@
+@@ -3,13 +3,13 @@
  
    "browser_specific_settings": {
      "gecko": {
@@ -10,8 +10,11 @@
 -  "name": "Firefox Alpenglow",
 +  "name": "Tau's Version of Alpenglow",
    "description": "Use a colorful appearance for buttons, menus, and windows.",
-   "version": "1.4",
+-  "version": "1.4",
++  "version": "1.0",
    "icons": { "32": "icon.svg" },
+ 
+   "theme": {
 @@ -40,12 +40,13 @@
        "toolbar_text": "hsla(261, 53%, 15%, 1)",
        "toolbar_vertical_separator": "hsla(261, 53%, 15%, .2)",
