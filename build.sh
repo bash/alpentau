@@ -17,4 +17,4 @@ else
 fi
 
 patch "gecko-dev/$extension_path/manifest.json" manifest.json.patch
-npx web-ext build --source-dir "gecko-dev/$extension_path"
+npx web-ext build --source-dir "gecko-dev/$extension_path" --overwrite-dest

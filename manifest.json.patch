@@ -12,7 +12,23 @@
    "description": "Use a colorful appearance for buttons, menus, and windows.",
    "version": "1.4",
    "icons": { "32": "icon.svg" },
-@@ -56,11 +56,6 @@
+@@ -40,12 +40,13 @@
+       "toolbar_text": "hsla(261, 53%, 15%, 1)",
+       "toolbar_vertical_separator": "hsla(261, 53%, 15%, .2)",
+       "toolbar_field": "hsla(0, 0%, 100%, .8)",
+-      "toolbar_field_focus": "hsla(261, 53%, 15%, .96)",
++      "toolbar_field_focus": "oklch(96.45% 0.02 53.26)",
+       "toolbar_field_text": "hsla(261, 53%, 15%, 1)",
+-      "toolbar_field_text_focus": "hsla(255, 100%, 94%, 1)",
++      "toolbar_field_text_focus": "oklch(20.92% 0.02 53.26)",
+       "toolbar_field_border": "transparent",
+       "toolbar_field_border_focus": "hsla(265, 100%, 72%, 1)",
+       "toolbar_field_highlight": "hsla(265, 100%, 72%, .32)",
++      "toolbar_field_highlight_text": "oklch(20.92% 0.02 53.26)",
+       "toolbar_top_separator": "transparent",
+       "toolbar_bottom_separator": "hsla(261, 53%, 15%, .32)",
+       "bookmark_text": "hsla(261, 53%, 15%, 1)",
+@@ -56,11 +57,10 @@
        "tab_loading": "hsla(265, 100%, 72%, 1)",
        "ntp_background": "#F9F9FB",
        "ntp_text": "hsla(261, 53%, 15%, 1)",
@@ -21,10 +37,14 @@
 -      "popup_border": "hsla(255, 100%, 94%, .32)",
 -      "popup_highlight": "hsla(255, 100%, 94%, .12)",
 -      "popup_highlight_text": "hsla(0, 0%, 100%, 1)",
++      "popup": "oklch(96.45% 0.02 53.26)",
++      "popup_text": "oklch(20.92% 0.02 53.26)",
++      "popup_highlight": "oklch(93.03% 0.02 53.26)",
++      "popup_highlight_text": "oklch(20.92% 0.02 53.26)",
        "sidebar": "hsla(240, 15%, 95%, 1)",
        "sidebar_text": "hsla(261, 53%, 15%, 1)",
        "sidebar_border": "hsla(261, 53%, 15%, .24)",
-@@ -126,14 +121,5 @@
+@@ -126,14 +126,5 @@
        "sidebar_highlight_text": "hsla(0, 0%, 100%, 1)",
        "focus_outline": "hsla(265, 100%, 72%, 1)"
      }
