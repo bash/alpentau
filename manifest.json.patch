@@ -11,7 +11,7 @@
 +  "name": "Alpentau",
    "description": "Use a colorful appearance for buttons, menus, and windows.",
 -  "version": "1.4",
-+  "version": "1.0",
++  "version": "1.5",
    "icons": { "32": "icon.svg" },
  
    "theme": {
